@@ -23,7 +23,7 @@ public class Program3 {
 		ExtentReports extent = new ExtentReports();
 		ExtentSparkReporter spark = new ExtentSparkReporter("report2.html");
 		extent.attachReporter(spark);
-		
+		System.out.println("huu");
 		driver=new FirefoxDriver();
 		driver.get("https://www.google.com/");
 		
